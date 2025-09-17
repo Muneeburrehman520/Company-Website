@@ -376,7 +376,6 @@ nav ul li a:hover{
     color: #d4cbcb;
 }
 /* ---------- Desktop (default) ---------- */
-/* Already handled in your main CSS */
 
 /* ---------- Tablet (up to 1024px) ---------- */
 @media (max-width: 1024px) {
@@ -387,7 +386,7 @@ nav ul li a:hover{
 
   .service-card,
   .product-card {
-    flex: 1 1 calc(50% - 1rem); /* 2 cards per row */
+    flex: 1 1 calc(50% - 1rem); 
     max-width: calc(50% - 1rem);
   }
 }
@@ -421,7 +420,7 @@ nav ul li a:hover{
 
   .service-card,
   .product-card {
-    flex: 1 1 100%; /* Full width on mobile */
+    flex: 1 1 100%; 
     max-width: 100%;
   }
 
